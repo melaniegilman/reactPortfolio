@@ -1,12 +1,14 @@
 import React from 'react';
+import melanieimage from "../../assets/img/melanieimage.jpg";
 
 function About() {
     return (
         <div className="jumbotron">
             <div className="row">
                 <div className="col-12 col-md-2">
-                    <img id="melanie-portrait" className="" src={require("../../assets/img/melanieimage.jpg")} 
-                        alt="An image of Melanie Gilman"/>
+                <img src={melanieimage} className="my-2" style={{ width: "100%" }} alt="cover" />
+                    {/* <img id="melanie-portrait" className="" src={require("../../assets/img/melanieimage.jpg")} 
+                        alt="An image of Melanie Gilman"/> */}
                 </div>
                 <div id="about-heading" className="col-12 col-md-10">
                     <h1 className="display-3">About Me</h1>
@@ -18,10 +20,7 @@ function About() {
             </div>
 
             <hr className="my-4" />
-            <h4>Experience</h4>
-            <p>
-            Insert Text
-            </p>
+          
         </div>
     )
 }
