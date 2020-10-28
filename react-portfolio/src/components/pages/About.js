@@ -6,9 +6,7 @@ function About() {
         <div className="jumbotron">
             <div className="row">
                 <div className="col-12 col-md-2">
-                <img src={melanieimage} className="my-2" style={{ width: "100%" }} alt="cover" />
-                    {/* <img id="melanie-portrait" className="" src={require("../../assets/img/melanieimage.jpg")} 
-                        alt="An image of Melanie Gilman"/> */}
+                <img id='melanie-portrait' src={melanieimage} className="my-2" style={{ width: "100%" }} alt="cover" />
                 </div>
                 <div id="about-heading" className="col-12 col-md-10">
                     <h1 className="display-3">About Me</h1>

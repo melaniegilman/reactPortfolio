@@ -1,4 +1,5 @@
 import React from 'react';
+import melanie_resume from '../../assets/melanie_resume.pdf';
 
 function Resume() {
     return (
@@ -28,7 +29,8 @@ function Resume() {
 
                 <div id="resume-download" className="text-center col-11 col-md-4" style={{border: "none"}}>
                     <h2>Click here to download my Full Resume</h2>
-                    <a href={require("../../assets/melanie_resume.pdf")} download>
+                    {/* <a href={require("../../assets/melanie_resume.pdf")} download> */}
+                    <a href="../assets/melanie_resume.pdf" src={melanie_resume} download>
                     <i className="far fa-file-pdf fa-7x mx-auto" style={{width: "100px"}}></i>
                     </a>
                 </div>
