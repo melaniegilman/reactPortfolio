@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className="footer fixed-bottom">
+        <footer className="footer">
             <div className="d-flex justify-content-center">    
                 <a className="btn btn-outline-dark btn-social mx-1" 
                     href="https://github.com/melaniegilman">

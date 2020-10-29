@@ -29,3 +29,27 @@ code {
   /* opacity: .40; */
 }
 
+nav {
+  background-color: rgba(202, 207, 205, 0.9);
+  
+}
+
+.btn {
+  background-color: rgba(202, 207, 205, 0.9);
+  color: rgb(46, 95, 95);
+  border: none;
+  
+}
+
+.btn:hover {
+  background-color: rgb(236, 231, 231);
+  color: rgb(46, 95, 95);
+  
+
+}
+
+.project-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

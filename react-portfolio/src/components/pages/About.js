@@ -9,7 +9,7 @@ function About() {
                 <img id='melanie-portrait' src={melanieimage} className="my-2" style={{ width: "100%" }} alt="cover" />
                 </div>
                 <div id="about-heading" className="col-12 col-md-10">
-                    <h1 className="display-3">About Me</h1>
+                    <h3 className="display-3">About Me</h3>
                     <p className="lead">
                       I am new to the development field and very eager to learn all I can.  The idea of working with other professionals to create and build applications that will help people and or positively impact their lives drives me to grow stronger in this field.
                     </p>
