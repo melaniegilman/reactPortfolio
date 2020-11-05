@@ -30,7 +30,7 @@ function Resume() {
                 <div id="resume-download" className="text-center col-11 col-md-4" style={{ border: "none" }}>
                     <h2>Click here to download my Full Resume</h2>
                     <section id="resume">
-            Download my full <a href="https://github.com/melaniegilman/reactPortfolio/raw/master/src/assets/google_doc_resume.pdf" class="link">resume</a>
+            Download my full <a href="https://github.com/melaniegilman/reactPortfolio/reactPortfolio/raw/master/src/assets/google_doc_resume.pdf" class="link">resume</a>
         </section>
                     {/* <a href={require("../../assets/melanie_resume.pdf")} download></a> */}
                         {/* <a href="" src={melanieresume} download>
