@@ -29,16 +29,11 @@ function Resume() {
 
                 <div id="resume-download" className="text-center col-11 col-md-4" style={{ border: "none" }}>
                     <h2>Click here to download my Full Resume</h2>
-                    <section id="resume">
-            Download my full <a href="https://github.com/melaniegilman/reactPortfolio/react-portfolio/raw/master/src/assets/google_doc_resume.pdf" class="link">resume</a>
-        </section>
-                    {/* <a href={require("../../assets/melanie_resume.pdf")} download></a> */}
-                        {/* <a href="" src={melanieresume} download>
-                            <i className="far fa-file-pdf fa-7x mx-auto" style={{ width: "100px" }}></i>
-                        </a> */}
-                    </div>
-                 </div>
+
+                   <a href={melanieresume} download class="link"><i className="far fa-file-pdf fa-7x mx-auto" style={{ width: "100px" }}></i></a>
                 </div>
+            </div>
+        </div>
     )
 }
 
