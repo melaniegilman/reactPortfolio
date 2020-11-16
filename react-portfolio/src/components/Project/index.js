@@ -3,6 +3,14 @@ import melanieimage from "../../assets/img/melanieimage.jpg";
 
 function Project() {
     const projects = [
+                
+        {
+            name: 'Roysters NC',
+            image: require('../../assets/img/ask.png'),
+            deployedLink: 'http://roystersnc.com/',
+            repoLink: 'https://github.com/mallynnk/Pearls',
+            description: 'Roysters NC is a web application for a small family owned business.  The app will be primarily used as a marketing tool for the business and a purchasing tool for customers'
+        },
         {
             name: 'Ask Father Time',
             image: require('../../assets/img/ask.png'),
