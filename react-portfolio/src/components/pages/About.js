@@ -1,9 +1,16 @@
 import React from 'react';
+import Hero from "../Hero";
 import melanieimage from "../../assets/img/melanieimage.jpg";
 
 function About() {
     return (
+        <div>
+            <Hero></Hero>   
+        
+        
         <div className="jumbotron">
+            
+          
             <div className="row">
                 <div className="col-12 col-md-2">
                 <img id='melanie-portrait' src={melanieimage} className="my-2" style={{ width: "100%" }} alt="cover" />
@@ -18,7 +25,7 @@ function About() {
             </div>
 
             <hr className="my-4" />
-          
+            </div>
         </div>
     )
 }

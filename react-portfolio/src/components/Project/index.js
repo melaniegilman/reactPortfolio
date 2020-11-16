@@ -1,5 +1,5 @@
 import React from 'react';
-import melanieimage from "../../assets/img/melanieimage.jpg";
+
 
 function Project() {
     const projects = [

@@ -1,9 +1,11 @@
 import React from 'react';
 import melanieresume from '../../assets/google_doc_resume.pdf';
+import Hero from "../Hero";
 
 function Resume() {
     return (
-        <div id="resume-card" className="card m-5" style={{ border: "none" }}>
+        <div id="resume-card" className="m-5" style={{ border: "none" }}>
+            <Hero />
             <div className="row">
                 <ul className="list-unstyled col-12 col-md-4" >
                     <li className="h2">Front-End Proficiencies</li>

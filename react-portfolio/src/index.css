@@ -18,7 +18,7 @@ code {
   border-radius: 3px;
 }
 
-.hero {
+.hero-image {
   background-image: url("assets/img/Computer.png");  
   background-size: cover;
   background-position: center;
@@ -43,8 +43,7 @@ nav {
 
 .btn:hover {
   background-color: rgb(236, 231, 231);
-  color: rgb(46, 95, 95);
-  
+  color: rgb(46, 95, 95); 
 
 }
 
@@ -56,4 +55,19 @@ nav {
 
 .App {
   text-align: center;
+}
+
+.card {
+  text-align: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/img/contactme.jpg");
+  width: 30%;
+  height: 300px;
+  margin: auto;
+  font-size: 38px;
+  margin-top: 20px;
+}
+
+.address {
+  margin-top: 135px;
+  color: rgb(37, 35, 35);
 }
