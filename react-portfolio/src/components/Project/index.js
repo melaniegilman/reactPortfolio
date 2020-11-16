@@ -1,4 +1,5 @@
 import React from 'react';
+import melanieimage from "../../assets/img/melanieimage.jpg";
 
 function Project() {
     const projects = [
@@ -7,7 +8,7 @@ function Project() {
             image: require('../../assets/img/ask.png'),
             deployedLink: 'https://mighty-meadow-10557.herokuapp.com/login',
             repoLink: 'https://github.com/nosremetnarg/askFatherTime',
-            description: 'Ask Father Time is a modern take on the vintage advice column.  Users can anonymously submit questions for Father Time (site admin) to answer.  Users may also communicate with one another inside of a live chat room.'
+            description: 'Ask Father Time is a modern take on the vintage advice column. Users can submit questions for Father Time (site admin) to answer. Users may also communicate inside of a live chat room.'
         },
         {
             name: 'News By The Map',
@@ -33,6 +34,7 @@ function Project() {
         {
             name: 'Taskmaster Pro',
             image: require('../../assets/img/task.png'),
+          
             deployedLink: 'https://melaniegilman.github.io/taskmaster-pro/',
             repoLink: 'https://github.com/melaniegilman/taskmaster-pro',
             description: 'A productivity application that helps with scheduling throughout your busy month'
@@ -42,7 +44,7 @@ function Project() {
             image: require('../../assets/img/weather.png'),
             deployedLink: 'https://melaniegilman.github.io/weather-app/',
             repoLink: 'https://github.com/melaniegilman/weather-app',
-            description: 'This application is a simple, user friendly way to check the weather in any City! Persistent data hangs on to the users previously searched cities, so that the user can quickly revisit their favorite locations.'
+            description: 'This application is a user friendly way to check the weather in any City! Persistent data hangs on to the users previously searched cities, so that the user can quickly revisit their favorite locations.'
         }
     ]
 
