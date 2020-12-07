@@ -6,7 +6,7 @@ function Contact() {
             <div class='contactpic'>
 
             <p class='connect'>
-            <h1>Lets Connect!</h1>
+            <h1>Let's Connect!</h1>
             <div class="flex-row address">
                 <address class="address">
                     <a href="tel:+7654376141" target="_blank" class="address hov">Telephone: 765-437-6141</a> <br></br> <br></br>

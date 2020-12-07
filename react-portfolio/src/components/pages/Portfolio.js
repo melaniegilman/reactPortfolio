@@ -1,16 +1,14 @@
 import React from 'react';
-import Project from '../Project';
-// import Hero from "../Hero";
-
+import Carousel from "../../components/Carousel";
 
 function Portfolio() {
     return (
         <div className="m-4">
-            {/* <Hero /> */}
-            <Project />
+    <Carousel />
             
         </div>
     )
 }
 
 export default Portfolio;
+
