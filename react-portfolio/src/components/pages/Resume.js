@@ -1,14 +1,14 @@
 import React from 'react';
 import melanieresume from '../../assets/google_doc_resume.pdf';
-import Hero from "../Hero";
+// import Hero from "../Hero";
 
 function Resume() {
     return (
-        <div id="resume-card" className="m-5" style={{ border: "none" }}>
-            <Hero />
-            <div className="row">
-                <ul className="list-unstyled col-12 col-md-4" >
-                    <li className="h2">Front-End Proficiencies</li>
+        <div id="resume-card" className="resume" style={{ border: "none" }}>
+            {/* <Hero /> */}
+            <div className="row resrow">
+                {/* <ul className="list-unstyled col-12 col-md-4" >
+                    <li className="h2">-Front-End Proficiencies-</li>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -19,7 +19,7 @@ function Resume() {
                     </ul>
                 </ul>
                 <ul className="list-unstyled col-12 col-md-4" >
-                    <li className="h2">Back-End Proficiencies</li>
+                    <li className="h2">-Back-End Proficiencies-</li>
                     <ul>
                         <li>APIs</li>
                         <li>Node</li>
@@ -27,12 +27,12 @@ function Resume() {
                         <li>MySQL, Sequelize</li>
                         <li>MongoDB, Mongoose</li>
                     </ul>
-                </ul>
+                </ul> */}
 
-                <div id="resume-download" className="text-center col-11 col-md-4" style={{ border: "none" }}>
-                    <h2>Click here to download my Full Resume</h2>
+                <div id="resume-download" className="text-center col-11 " style={{ border: "none"  }}>
+                    <h2>-Click To Download My Resume-</h2>
 
-                   <a href={melanieresume} download class="link"><i className="far fa-file-pdf fa-7x mx-auto" style={{ width: "100px" }}></i></a>
+                   <a href={melanieresume} download class="link"><i className="far fa-file-pdf fa-7x mx-auto" style={{ width: "100px" , color: " rgb(120, 129, 120)"}}></i></a>
                 </div>
             </div>
         </div>

@@ -57,17 +57,42 @@ nav {
   text-align: center;
 }
 
-.card {
-  text-align: center;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/img/contactme.jpg");
-  width: 30%;
-  height: 300px;
-  margin: auto;
-  font-size: 38px;
-  margin-top: 20px;
+.resume {
+  background-image: url("assets/img/contactme.jpg");  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  height: 500px;
+  width: 100%;
+  opacity: .80;
+  align-content: center;
+}
+
+.resrow {
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(26, 65, 52);
+}
+.contactpic {
+  background-image: url("assets/img/contactme.jpg");  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  height: 500px;
+  width: 100%;
+  opacity: .80;
+  font-size: 30px;
 }
 
 .address {
-  margin-top: 135px;
+  margin-top: 40px;
+  margin-left: 20px;
   color: rgb(37, 35, 35);
+}
+
+.connect {
+  margin-left: 10px;
+  margin-top: 90px;
 }
