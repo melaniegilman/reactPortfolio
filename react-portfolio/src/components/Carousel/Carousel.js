@@ -46,36 +46,39 @@ function Carousels() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img className="d-block w-100" src={ask} style={style} alt="First Slide"/>
-          <Carousel.Caption >
-            <h2 class="restHead">RALEIGH</h2>
-            <h4>ST. ROCH FINE OYSTERS + BAR</h4>
-            <p>223 SOUTH WILMINGTON STREET, RALEIGH, NC, 27601</p>
-          </Carousel.Caption>
+        <Carousel.Caption>
+            <h4 style={{textAlign: 'center'}}>Ask Father Time</h4>
+            <p>Ask Father Time is a modern take on the vintage advice column. Users can submit questions for Father Time (site admin) to answer. Users may also communicate inside of a live chat room.</p>
+            <h4><a href="https://github.com/nosremetnarg/askFatherTime" target="blank">Github Repo</a></h4>
+            <h4><a href="https://mighty-meadow-10557.herokuapp.com/" target="blank">Deployed Link</a></h4>
+        </Carousel.Caption>.
        </Carousel.Item>
        <Carousel.Item>
        <img  className="d-block w-100" src={blog} alt='Second Slide' />
-          <Carousel.Caption>
-          <h2 class="restHead">RALEIGH</h2>
-          <h3>MADDEN'S SEAFOOD</h3>
-            <p>8401 HONEYCUTT ROAD, RALEIGH, NC 27615</p>
-          </Carousel.Caption>
+       <Carousel.Caption>
+            <h4 style={{textAlign: 'center'}}>Tech Blog</h4>
+            <p>A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developer's posts as well.</p>
+            <h4><a href="https://github.com/melaniegilman/tech-blog" target="blank">Github Repo</a></h4>
+            <h4><a href="https://mysterious-fjord-57455.herokuapp.com/" target="blank">Deployed Link</a></h4>
+        </Carousel.Caption>.
        </Carousel.Item>
        <Carousel.Item>
        <img  className="d-block w-100" src={budget} alt='Third Slide'/>
-          <Carousel.Caption>
-          <h2 class="restHead">BEAUFORT</h2>
-          <h3>ROSE SEAFOOD RETAIL AND WHOLESALE</h3>
-           <p>1646 LIVE OAK STREET, BEAUFORT, NC 28516</p>
-          </Carousel.Caption>
+       <Carousel.Caption>
+            <h4 style={{textAlign: 'center' }}>Budget Tracker</h4>
+            <p>Updating an existing budget tracker application to allow for offline access and functionality.</p>
+            <h4><a href="https://github.com/melaniegilman/budget-tracker" target="blank">Github Repo</a></h4>
+            <h4><a href="https://powerful-crag-39646.herokuapp.com/" target="blank">Deployed Link</a></h4>
+        </Carousel.Caption>.
        </Carousel.Item>
        <Carousel.Item>
        <img  className="d-block w-100" src={news}  alt='Fourth Slide'/>
-          <Carousel.Caption>
-          <h2 class="restHead">BEAUFORT</h2>
-
-          <h3>BLACKBEARD'S GRILL AND STEAM BAR</h3>
-          <p>1644 LIVE OAK STREET, BEAUFORT, NC 28516</p>
-          </Carousel.Caption>
+       <Carousel.Caption>
+            <h4 style={{textAlign: 'center'}}>News By The Map</h4>
+            <p>News By The Map is a web application that brings you the latest news based off of a searched location using Google Maps.</p>
+            <h4><a href="https://github.com/adamkeyser45/newsbythemap" target="blank">Github Repo</a></h4>
+            <h4><a href="https://adamkeyser45.github.io/newsbythemap/" target="blank">Deployed Link</a></h4>
+        </Carousel.Caption>.
        </Carousel.Item>
       </Carousel>
   

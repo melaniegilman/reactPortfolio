@@ -7,7 +7,7 @@ function Portfolio() {
     return (
       <div>
           
-      <div className="Restcontainer">
+      <div className="portfolioContainer">
     
         <Carousel></Carousel>
         </div>

@@ -4,8 +4,8 @@ import Carousel from "../../components/Carousel";
 function Portfolio() {
     return (
         <div className="m-4">
-    <Carousel />
-            
+            <Carousel />
+
         </div>
     )
 }
