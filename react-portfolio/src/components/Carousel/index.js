@@ -5,7 +5,7 @@ function Portfolio() {
 
   
     return (
-      <div>
+      <div className='card'>
           
       <div className="portfolioContainer">
     
