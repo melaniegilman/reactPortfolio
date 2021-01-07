@@ -70,7 +70,7 @@ function Carousels() {
        <img  className="d-block w-100" src={budget} alt='Third Slide'/>
        <Carousel.Caption>
             <h4 style={{textAlign: 'center' }}>Budget Tracker</h4>
-            <p>Updating an existing budget tracker application to allow for offline access and functionality.</p>
+            <p>This application allows a user to update their budget and track their finances. This app has offline functionality so users can update their budgets from anywhere, anytime.</p>
             <h4><a href="https://github.com/melaniegilman/budget-tracker" target="blank">Github Repo</a></h4>
             <h4><a href="https://powerful-crag-39646.herokuapp.com/" target="blank">Deployed Link</a></h4>
         </Carousel.Caption>.

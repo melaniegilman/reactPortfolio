@@ -7,8 +7,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 #melanie-portrait {
@@ -19,7 +18,7 @@ code {
 }
 
 .hero-image {
-  background-image: url("assets/img/Computer.png");  
+  background-image: url("assets/img/Computer.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -31,20 +30,17 @@ code {
 
 nav {
   background-color: rgba(202, 207, 205, 0.9);
-  
 }
 
 .btn {
   background-color: rgba(202, 207, 205, 0.9);
   color: rgb(46, 95, 95);
   border: none;
-  
 }
 
 .btn:hover {
   background-color: rgb(236, 231, 231);
-  color: rgb(46, 95, 95); 
-
+  color: rgb(46, 95, 95);
 }
 
 .project-img {
@@ -58,7 +54,7 @@ nav {
 }
 
 .resume {
-  background-image: url("assets/img/contactme.jpg");  
+  background-image: url("assets/img/contactme.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -74,8 +70,9 @@ nav {
   font-size: 30px;
   color: rgb(26, 65, 52);
 }
+
 .contactpic {
-  background-image: url("assets/img/contactme.jpg");  
+  background-image: url("assets/img/contactme.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -97,8 +94,8 @@ nav {
   margin-top: 70px;
 }
 
-
 /*Portfolio Carousel*/
+
 .slide {
   display: flex;
   align-items: center;
@@ -122,33 +119,29 @@ nav {
   .row {
     display: contents;
     justify-content: center
-   }
- 
-   p {
-     width: fit-content;
-   }
- 
-   .slide {
-     display: flex;
-     align-items: center;
-   }
-   
-   .Restcontainer {
-     padding: 0;
-     width: auto;
-   }
-   
-   .carousel-caption {
-     position: initial;
-     color: black;
-   }
- 
-   .container {
-     overflow-x: hidden;
-     padding: 0;
-     padding-bottom:60px;
-   }
-   .contact {
-     padding: 1rem;
-   }
- }
+  }
+  p {
+    width: fit-content;
+  }
+  .slide {
+    display: flex;
+    align-items: center;
+  }
+  .Restcontainer {
+    padding: 0;
+    width: auto;
+  }
+  .carousel-caption {
+    position: initial;
+    color: black;
+  }
+  .container {
+    overflow-x: hidden;
+    padding: 0;
+    padding-bottom: 60px;
+  }
+  .contact {
+    padding: 1rem;
+
+  }
+}
