@@ -1,5 +1,5 @@
 import React from 'react';
-import melanieresume from '../../assets/google_doc_resume.pdf';
+import melanieresume from '../../assets/Melanie_Gilman_Resume_3.PDF';
 // import Hero from "../Hero";
 
 function Resume() {

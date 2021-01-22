@@ -99,6 +99,7 @@ nav {
 .slide {
   display: flex;
   align-items: center;
+  animation: slideshow 120s linear infinite;
 }
 
 .portfolioContainer {
