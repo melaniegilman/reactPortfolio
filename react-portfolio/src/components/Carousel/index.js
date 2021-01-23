@@ -26,7 +26,7 @@ function Carousels() {
   };
   
   return (
-  
+  // <section className="portfolioContainer container">
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img className="d-block w-100" src={ask} style={style} alt="First Slide"/>
@@ -73,6 +73,7 @@ function Carousels() {
         </Carousel.Caption>.
        </Carousel.Item>
       </Carousel>
+      // </section>
   
   );
 }

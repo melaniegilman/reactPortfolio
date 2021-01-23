@@ -3,7 +3,7 @@ import React from 'react';
 
 function Contact() {
     return (
-        <section className='contactForm contact'>
+        <section className='contactForm contact container'>
             <div class='contactpic'>
             <p class='connect'>
             <h1>Let's Connect!</h1>

@@ -67,7 +67,7 @@ nav {
 
 .resrow {
   margin-top: 70px;
-  font-size: 30px;
+ 
   color: rgb(26, 65, 52);
 }
 
@@ -80,7 +80,6 @@ nav {
   height: 400px;
   width: 100%;
   opacity: .80;
-  font-size: 30px;
 }
 
 .address {
@@ -128,10 +127,6 @@ nav {
     display: flex;
     align-items: center;
   }
-  .Restcontainer {
-    padding: 0;
-    width: auto;
-  }
   .carousel-caption {
     position: initial;
     color: black;
@@ -140,9 +135,5 @@ nav {
     overflow-x: hidden;
     padding: 0;
     padding-bottom: 60px;
-  }
-  .contact {
-    padding: 1rem;
-
   }
 }
