@@ -135,5 +135,6 @@ nav {
     overflow-x: hidden;
     padding: 0;
     padding-bottom: 60px;
+    margin-top: auto;
   }
 }

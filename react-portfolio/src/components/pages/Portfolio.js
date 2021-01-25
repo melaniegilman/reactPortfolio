@@ -3,7 +3,7 @@ import Carousel from "../../components/Carousel";
 
 function Portfolio() {
     return (        
-            <div className="portfolioContainer">
+            <div className="portfolioContainer container">
                 <Carousel />
             </div>
     )
